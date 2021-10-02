@@ -32,6 +32,8 @@ USAGE
 <!-- commands -->
 * [`hammad hello [FILE]`](#hammad-hello-file)
 * [`hammad help [COMMAND]`](#hammad-help-command)
+* [`hammad interact [FILE]`](#hammad-interact-file)
+* [`hammad remove [FILE]`](#hammad-remove-file)
 
 ## `hammad hello [FILE]`
 
@@ -69,4 +71,36 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.3/src/commands/help.ts)_
+
+## `hammad interact [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ hammad interact [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/interact.ts](https://github.com/hammad131/hammad/blob/v1.0.0/src/commands/interact.ts)_
+
+## `hammad remove [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ hammad remove [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/remove.ts](https://github.com/hammad131/hammad/blob/v1.0.0/src/commands/remove.ts)_
 <!-- commandsstop -->
